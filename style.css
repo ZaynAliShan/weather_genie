@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#city-input, #weather-output {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.banner {
+  color: black;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width:370px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width:314px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width:286px) {
+  h1{
+    font-size: 22px;
+  }
+}
+@media (max-width:269px) {
+  h1{
+    font-size: 18px;
+  }
+}
